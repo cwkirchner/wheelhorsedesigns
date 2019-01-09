@@ -1,0 +1,92 @@
+/* Fonts */
+@font-face {
+    font-family: 'originbold';
+    src: url('/fonts/origin-bold-webfont.woff2') format('woff2'),
+         url('/fonts/origin-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'originextra_bold';
+    src: url('/fonts/origin-extrabold-webfont.woff2') format('woff2'),
+         url('/fonts/origin-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'originlight';
+    src: url('/fonts/origin-light-webfont.woff2') format('woff2'),
+         url('/fonts/origin-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'originregular';
+    src: url('/fonts/origin-regular-webfont.woff2') format('woff2'),
+         url('/fonts/origin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Custom Styles */
+
+body {
+	background-image: url(/img/top_left_image.png), url(/img/background.jpg);
+	background-position: top left;
+	background-repeat: no-repeat, repeat;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 100px;
+}
+
+body > div > nav {
+	background-color: rgba(215,173,112, 0.4);
+	
+}
+
+a.nav-link {
+	color: #996633;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+li.nav-item.active > a.nav-link {
+	font-weight: 800;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #996633;
+	font-family: 'originlight', sans-serif;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+.container {
+	background-color: rgba(255,255,255, 0.7);
+}
+
+.originlight {
+	font-family: 'originlight', sans-serif;
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.lightbrown {
+	color: #D7AD70;
+}
+
+.darkbrown {
+	color: #996633;
+}
